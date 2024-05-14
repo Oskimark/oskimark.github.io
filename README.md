@@ -5,11 +5,12 @@ https://github.com/Oskimark/bmp180
 
 ATMEGA8A
 
-vamos a programar el MCU ATMEGA8A, 
+Vamos a programar el **MCU ATMEGA8A**.
 compre por aliexpress 20 chips en formato QFN32
-![texto cualquiera por si no carga la imagen](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fTX08NwgapdyukYtDhpqXx8xJElgzs85iA&s)
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fTX08NwgapdyukYtDhpqXx8xJElgzs85iA&s)
 y algunas placas adaptadoras a QFN32 a DIP32.
-![texto cualquiera por si no carga la imagen](https://github.com/Oskimark/oskimark.github.io/blob/main/qfn32.png)
+![](https://github.com/Oskimark/oskimark.github.io/blob/main/qfn32.png)
 este es el pinout del chip
 ![pinout atmega8](https://camo.githubusercontent.com/18796d8b7673e3b6c14b6bdfb61d86b58c6f0d670398973abd4207afce960277/68747470733a2f2f692e696d6775722e636f6d2f6e6177657145362e6a7067)
 
@@ -30,7 +31,7 @@ Click Install.
 After installation is complete close the Boards Manager window.
 
 ahora tendremos la opcion para nuestro micro:
-![texto cualquiera por si no carga la imagen](https://github.com/Oskimark/oskimark.github.io/blob/main/conf.png)
+![](https://github.com/Oskimark/oskimark.github.io/blob/main/conf.png)
 despues usando el sketch 
 / This sketch turns the Arduino into a AVRISP using the following Arduino pins:
 //
@@ -39,7 +40,7 @@ despues usando el sketch
 // digital pin 11, 12 and 13, respectively.
 
 conectamos asi:
-![texto cualquiera por si no carga la imagen]([url completa de la imagen](https://github.com/Oskimark/oskimark.github.io/blob/main/programar%20avrisp.png))
+![](https://github.com/Oskimark/oskimark.github.io/blob/main/programar%20avrisp.png)
 
 y le damos a !quemar bootloader. esto nos va a permitir subir codigo usando solo la uart y un adaptador pl2303 o ch341, hacer debug por esa uart (puerto serie, serialPrint) usando dos cables tx y rx.ademas de quemar los fuses correspondientes . oscilador interno a 8mhz watchdog brownout etc
 si todo esta conectado correcta y firmemente (los dos problemas de siempre) tendriamos qeu tener esto en la terminal del IDE:

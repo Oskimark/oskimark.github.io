@@ -18,7 +18,7 @@ este es el pinout del chip
 
 
 para poder programarlo usando el IDE de Arduino tnemos que instalar el paquete para ese chip. 
-estos son los pasos tal como estan en https://github.com/MCUdude/MiniCore?tab=readme-ov-file#pinout
+estos son los pasos tal como estan en *https://github.com/MCUdude/MiniCore?tab=readme-ov-file#pinout*
 
 Open the Arduino IDE.
 Open the File > Preferences menu item.
@@ -31,7 +31,7 @@ Click Install.
 After installation is complete close the Boards Manager window.
 
 ahora tendremos la opcion para nuestro micro:
-![](https://github.com/Oskimark/oskimark.github.io/blob/main/conf.png)
+![](https://oskimark.github.io/conf.png)
 despues usando el sketch 
 / This sketch turns the Arduino into a AVRISP using the following Arduino pins:
 //
@@ -40,7 +40,7 @@ despues usando el sketch
 // digital pin 11, 12 and 13, respectively.
 
 conectamos asi:
-![](https://github.com/Oskimark/oskimark.github.io/blob/main/programar%20avrisp.png)
+![](https://oskimark.github.io/programar%20avrisp.png)
 
 y le damos a !quemar bootloader. esto nos va a permitir subir codigo usando solo la uart y un adaptador pl2303 o ch341, hacer debug por esa uart (puerto serie, serialPrint) usando dos cables tx y rx.ademas de quemar los fuses correspondientes . oscilador interno a 8mhz watchdog brownout etc
 si todo esta conectado correcta y firmemente (los dos problemas de siempre) tendriamos qeu tener esto en la terminal del IDE:

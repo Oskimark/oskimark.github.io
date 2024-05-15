@@ -45,10 +45,10 @@ conectamos asi:
 y le damos a !quemar bootloader. esto nos va a permitir subir codigo usando solo la uart y un adaptador pl2303 o ch341, hacer debug por esa uart (puerto serie, serialPrint) usando dos cables tx y rx.ademas de quemar los fuses correspondientes . oscilador interno a 8mhz watchdog brownout etc
 si todo esta conectado correcta y firmemente (los dos problemas de siempre) tendriamos qeu tener esto en la terminal del IDE:
 
-![texto cualquiera por si no carga la imagen](https://oskimark.github.io/terminal1.png)
+![](https://oskimark.github.io/terminal1.png)
 
-![texto cualquiera por si no carga la imagen](https://oskimark.github.io/terminal2.png)
+![](https://oskimark.github.io/terminal2.png)
 
 el chipp en el adaptador queda con este pinout, en rojo estan resaltados oos pines para quemar el bootloader. y e azul los del serial.
 
-![texto cualquiera por si no carga la imagen](https://oskimark.github.io/pinout_qfn_adapt.png)
+![](https://oskimark.github.io/pinout_qfn_adapt.png)

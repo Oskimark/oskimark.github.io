@@ -49,4 +49,6 @@ si todo esta conectado correcta y firmemente (los dos problemas de siempre) tend
 
 ![texto cualquiera por si no carga la imagen](https://oskimark.github.io/terminal2.png)
 
+el chipp en el adaptador queda con este pinout, en rojo estan resaltados oos pines para quemar el bootloader. y e azul los del serial.
 
+![texto cualquiera por si no carga la imagen](https://oskimark.github.io/pinout_qfn_adapt.png)

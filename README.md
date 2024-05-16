@@ -1,6 +1,6 @@
 # oskimark.github.io
- [impedir instalacion de driver pl2303](/impedir instalacion de driver2/impedir instalacion de driver2.html).
-
+ [impedir instalacion de driver pl2303](impedir instalacion de driver2/impedir instalacion de driver2.html).
+ [Contribution  guidelines for this project](docs/CONTRIBUTING.md)
 ### ATMEGA8A
 
 Vamos a programar el **MCU ATMEGA8A**.
